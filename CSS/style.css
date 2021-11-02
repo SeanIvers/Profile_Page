@@ -1,12 +1,16 @@
+/* CSS Reset */
 * {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
+    /* outline: 2px solid red; */
 }
 .container {
     width: 1400px;
     margin: 0 auto;
 }
+
+/* Nav-bar styling */
 .nav-bar {
     width: inherit;
     background-color: black;
@@ -18,13 +22,13 @@
 .nav-bar h1 {
     color: white;
     font-weight: normal;
-    margin-left: 120px;
+    margin-left: 160px;
     font-size: 250%;
 }
 .nav-bar div a{
     color: white;
     text-decoration: none;
-    margin: 0px 50px;
+    margin: 0px 45px;
 }
 .home-link {
     margin-left: 80px;
@@ -37,8 +41,73 @@ button {
     background-color: rgb(21, 163, 184);
     padding: 3px 15px;
     font-size: large;
-    margin-left: 300px;
+    margin-left: 250px;
 }
+
+/* User-card styling */
 .row {
     display: flex;
+}
+.user-card {
+    padding: 30px 30px 30px 160px;
+    width: 680px;
+}
+.user-card-header {
+    background-color: rgb(21, 163, 184);
+    height: 150px;
+}
+.card-bottom {
+    border: 4px solid rgb(210, 210, 210);
+    border-top: none;
+}
+.user-avatar {
+    border-radius: 50%;
+    width: 140px;
+    border: 4px solid white;
+    outline: 3px solid rgb(210, 210, 210);
+    margin: 75px 50px 50px;
+}
+.user-card-description {
+    padding: 70px 50px 30px;
+}
+.user-card-description h1 {
+    padding: 5px 0px;
+    font-size: 250%;
+}
+.user-card-description div img {
+    width: 15px;
+}
+.user-card-description label {
+    vertical-align: top;
+    padding: 10px;
+    font-size: larger;
+}
+.user-card-description h3 {
+    vertical-align: top;
+}
+.user-card-description p {
+    margin-top: 20px;
+}
+.user-card-description p img {
+    width: 20px;
+}
+#settings {
+    position: relative;
+    bottom: 5px;
+    left: 5px;
+}
+
+/* Education styling */
+.education {
+    width: 680px;
+    padding: 0px 30px 30px 160px;
+}
+.education-header h2 {
+    background-color: rgb(51, 51, 51);
+    color: white;
+    padding: 15px 0px 15px 50px;
+    font-weight: normal;
+}
+.education-description {
+    padding: 
 }
