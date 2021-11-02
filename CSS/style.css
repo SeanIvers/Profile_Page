@@ -104,10 +104,21 @@ button {
 }
 .education-header h2 {
     background-color: rgb(51, 51, 51);
-    color: white;
+    color: rgb(210, 210, 210);
     padding: 15px 0px 15px 50px;
     font-weight: normal;
 }
 .education-description {
-    padding: 
+    padding-bottom: 30px;
+}
+.education-description h2{
+    padding: 15px 0px 10px 46px;
+}
+#date {
+    padding-left: 46px;
+    padding-bottom: 25px;
+    color:rgb(140, 140, 140);
+}
+.education-description h3 {
+    padding-left: 46px;
 }
