@@ -2,16 +2,43 @@
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    outline: 2px solid black;
 }
 .container {
-    width: 1200px;
+    width: 1400px;
     margin: 0 auto;
-    padding: 20px;
 }
 .nav-bar {
-    /* display: flex; */
-}
-/* .row {
+    width: inherit;
+    background-color: black;
+    padding-top: 25px;
+    padding-bottom: 25px;
     display: flex;
-} */
+    align-items: center;
+}
+.nav-bar h1 {
+    color: white;
+    font-weight: normal;
+    margin-left: 120px;
+    font-size: 250%;
+}
+.nav-bar div a{
+    color: white;
+    text-decoration: none;
+    margin: 0px 50px;
+}
+.home-link {
+    margin-left: 80px;
+}
+.profile-link {
+    font-weight: bold;
+}
+button {
+    color: white;
+    background-color: rgb(21, 163, 184);
+    padding: 3px 15px;
+    font-size: large;
+    margin-left: 300px;
+}
+.row {
+    display: flex;
+}
