@@ -7,6 +7,7 @@
 .container {
     width: 1400px;
     margin: 0 auto;
+    padding-bottom: 30px;
 }
 
 /* Nav-bar styling */
@@ -106,14 +107,14 @@ button {
 .education-header h2 {
     background-color: rgb(51, 51, 51);
     color: rgb(210, 210, 210);
-    padding: 15px 0px 15px 50px;
+    padding: 20px 0px 20px 50px;
     font-weight: normal;
 }
 .education-description {
     padding-bottom: 30px;
 }
 .education-description h2 {
-    padding: 15px 0px 10px 46px;
+    padding: 25px 0px 10px 46px;
 }
 #date {
     padding-left: 46px;
@@ -150,7 +151,7 @@ button {
 }
 .connection-avatar {
     border-radius: 50%;
-    width: 70px;
+    width: 60px;
     margin-left: 20px;
 }
 .connection-requests .row {
@@ -158,7 +159,7 @@ button {
 }
 .name {
     width: 140px;
-    font-size: 175%;
+    font-size: 150%;
     padding-left: 10px;
     padding-bottom: 10px;
 }
@@ -171,7 +172,7 @@ button {
     padding: 15px 0px 0px;
 }
 #connection2 {
-    padding: 15px 0px 30px;
+    padding: 15px 0px 15px;
 }
 
 /* Your connections styling */
@@ -191,10 +192,6 @@ button {
     align-items: center;
     justify-content: center;
 }
-.your-connections .row {
-    justify-content: space-evenly;
-    align-items: center;
-}
 #your-connection, #your-connection2, #your-connection3 {
     padding: 15px 0px 0px;
 }
@@ -208,4 +205,8 @@ button {
 }
 #view-bottom {
     padding: 15px 0px;
+}
+.connection-name {
+    margin-left: 10px;
+    margin-top: 10px;
 }
