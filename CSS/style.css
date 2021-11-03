@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    /* outline: 2px solid red; */
 }
 .container {
     width: 1400px;
@@ -28,10 +27,11 @@
 .nav-bar div a{
     color: white;
     text-decoration: none;
-    margin: 0px 45px;
+    margin: 0px 30px;
+    font-size: 120%;
 }
 .home-link {
-    margin-left: 80px;
+    margin-left: 60px;
 }
 .profile-link {
     font-weight: bold;
@@ -41,7 +41,7 @@ button {
     background-color: rgb(21, 163, 184);
     padding: 3px 15px;
     font-size: large;
-    margin-left: 250px;
+    margin-left: 310px;
 }
 
 /* User-card styling */
@@ -65,37 +65,37 @@ button {
     width: 140px;
     border: 4px solid white;
     outline: 3px solid rgb(210, 210, 210);
-    margin: 75px 50px 50px;
+    margin: 70px 50px 50px;
 }
 .user-card-description {
-    padding: 70px 50px 30px;
+    padding: 75px 0px 30px 50px;
 }
 .user-card-description h1 {
-    padding: 5px 0px;
-    font-size: 250%;
+    font-size: 300%;
 }
 .user-card-description div img {
     width: 15px;
+    margin-top: 15px;
+    position: relative;
+    top: 4px;
 }
 .user-card-description label {
-    vertical-align: top;
-    padding: 10px;
-    font-size: larger;
+    font-size: 140%;
+    margin: 15px;
 }
 .user-card-description h3 {
-    vertical-align: top;
-}
-.user-card-description p {
-    margin-top: 20px;
+    font-weight: normal;
+    margin: 15px 0px;
 }
 .user-card-description p img {
     width: 20px;
+    position: relative;
+    top: 2px;
 }
 #settings {
-    position: relative;
-    bottom: 5px;
-    left: 5px;
-    color: rgb(78, 140, 231)
+    vertical-align: top;
+    color: rgb(78, 140, 231);
+    margin-left: 10px;
 }
 
 /* Education styling */
@@ -199,5 +199,13 @@ button {
     padding: 15px 0px 0px;
 }
 #your-connection4 {
-    padding: 15px 0px 30px;
+    padding: 15px 0px 15px;
+}
+#view-more {
+    color: rgb(78, 140, 231);
+    padding-left: 25px;
+    font-size: 18px;
+}
+#view-bottom {
+    padding: 15px 0px;
 }
