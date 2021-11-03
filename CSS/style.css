@@ -63,10 +63,11 @@ button {
 }
 .user-avatar {
     border-radius: 50%;
-    width: 140px;
-    border: 4px solid white;
-    outline: 3px solid rgb(210, 210, 210);
-    margin: 70px 50px 50px;
+    width: 130px;
+    border: 5px solid black;
+    outline: 3px solid white;
+    box-shadow: 0px 0px 0px 6px rgb(210, 210, 210);
+    margin: 75px 50px 50px;
 }
 .user-card-description {
     padding: 75px 0px 30px 50px;
@@ -78,11 +79,11 @@ button {
     width: 15px;
     margin-top: 15px;
     position: relative;
-    top: 4px;
+    top: 5px;
 }
 .user-card-description label {
     font-size: 140%;
-    margin: 15px;
+    margin: 0px 10px;
 }
 .user-card-description h3 {
     font-weight: normal;
@@ -90,13 +91,11 @@ button {
 }
 .user-card-description p img {
     width: 20px;
-    position: relative;
-    top: 2px;
 }
 #settings {
     vertical-align: top;
     color: rgb(78, 140, 231);
-    margin-left: 10px;
+    margin-left: 5px;
 }
 
 /* Education styling */
@@ -131,13 +130,15 @@ button {
 }
 .connection-header {
     display: flex;
+    text-align: left;
 }
 .connection-header h2 {
     background-color: rgb(51, 51, 51);
     color:rgb(210, 210, 210);
     font-weight: normal;
-    padding: 30px 38px;
+    padding: 25px 38px 25px 25px;
     height: 40px;
+    text-align: left;
 }
 #connection-requests-number {
     background-color: rgb(210, 210, 210);
@@ -146,13 +147,15 @@ button {
     width: 40px;
     height: 40px;
     display: inline-flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    margin-right: 10px;
 }
 .connection-avatar {
     border-radius: 50%;
     width: 60px;
     margin-left: 20px;
+    border: 2px solid black;
 }
 .connection-requests .row {
     align-items: center;
@@ -162,6 +165,7 @@ button {
     font-size: 150%;
     padding-left: 10px;
     padding-bottom: 10px;
+    margin-right: 10px;
 }
 .accept {
     width: 40px;
@@ -191,6 +195,7 @@ button {
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    margin-right: 10px;
 }
 #your-connection, #your-connection2, #your-connection3 {
     padding: 15px 0px 0px;
