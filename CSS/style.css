@@ -111,7 +111,7 @@ button {
 .education-description {
     padding-bottom: 30px;
 }
-.education-description h2{
+.education-description h2 {
     padding: 15px 0px 10px 46px;
 }
 #date {
@@ -121,4 +121,52 @@ button {
 }
 .education-description h3 {
     padding-left: 46px;
+}
+
+/* Connection Requests styling */
+.right {
+    padding-top: 30px;
+}
+.connection-requests {
+
+}
+.connection-header {
+    display: flex;
+}
+.connection-header h2 {
+    background-color: rgb(51, 51, 51);
+    color:rgb(210, 210, 210);
+    font-weight: normal;
+    padding: 30px 38px;
+}
+#connection-requests-number {
+    background-color: rgb(210, 210, 210);
+    color:rgb(51, 51, 51);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.connection-avatar {
+    border-radius: 50%;
+    width: 75px;
+}
+.connection-requests .row {
+    justify-content: space-evenly;
+    align-items: center;
+}
+.accept {
+    width: 40px;
+    height: 40px;
+}
+#name {
+    padding-right: 40px;
+}
+#connection {
+    padding: 15px 0px 0px;
+}
+#connection2 {
+    padding: 15px 0px 30px;
 }
