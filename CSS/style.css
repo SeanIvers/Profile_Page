@@ -95,6 +95,7 @@ button {
     position: relative;
     bottom: 5px;
     left: 5px;
+    color: rgb(78, 140, 231)
 }
 
 /* Education styling */
@@ -127,9 +128,6 @@ button {
 .right {
     padding-top: 30px;
 }
-.connection-requests {
-
-}
 .connection-header {
     display: flex;
 }
@@ -138,6 +136,7 @@ button {
     color:rgb(210, 210, 210);
     font-weight: normal;
     padding: 30px 38px;
+    height: 40px;
 }
 #connection-requests-number {
     background-color: rgb(210, 210, 210);
@@ -151,22 +150,54 @@ button {
 }
 .connection-avatar {
     border-radius: 50%;
-    width: 75px;
+    width: 70px;
+    margin-left: 20px;
 }
 .connection-requests .row {
-    justify-content: space-evenly;
     align-items: center;
+}
+.name {
+    width: 140px;
+    font-size: 175%;
+    padding-left: 10px;
+    padding-bottom: 10px;
 }
 .accept {
     width: 40px;
     height: 40px;
-}
-#name {
-    padding-right: 40px;
+    margin-right: 10px;
 }
 #connection {
     padding: 15px 0px 0px;
 }
 #connection2 {
+    padding: 15px 0px 30px;
+}
+
+/* Your connections styling */
+.your-connections {
+    padding-top: 30px;
+}
+.your-connections .connection-header h3{
+    height: 40px;
+}
+#your-connections-number {
+    background-color: rgb(210, 210, 210);
+    color:rgb(51, 51, 51);
+    border-radius: 50%;
+    width: 80px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.your-connections .row {
+    justify-content: space-evenly;
+    align-items: center;
+}
+#your-connection, #your-connection2, #your-connection3 {
+    padding: 15px 0px 0px;
+}
+#your-connection4 {
     padding: 15px 0px 30px;
 }
