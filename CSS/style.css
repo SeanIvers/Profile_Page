@@ -167,15 +167,15 @@ button {
     padding-bottom: 10px;
     margin-right: 10px;
 }
-.accept {
+[class="0"], [class="1"] {
     width: 40px;
     height: 40px;
-    margin-right: 10px;
+    margin-right: 8px;
 }
-#connection {
+#connection0 {
     padding: 15px 0px 0px;
 }
-#connection2 {
+#connection1 {
     padding: 15px 0px 15px;
 }
 
@@ -214,4 +214,9 @@ button {
 .connection-name {
     margin-left: 10px;
     margin-top: 10px;
+}
+#name-input {
+    display: none;
+    /* left: 250px; */
+    font-size: larger;
 }
